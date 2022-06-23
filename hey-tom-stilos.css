@@ -1,0 +1,96 @@
+@media screen {max-width: 360px;
+    
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+}
+a{ 
+    color: black;
+}
+header img{
+    width: 100px;
+    height: 100px;
+}
+.menu__item{
+    font-size: 40px;
+    display: inline-grid;
+    flex-direction: row;
+}
+
+    
+body{
+    background-image: url("./tomdelado.JPG") ;
+    background-size: cover ;
+    background-color: black;
+}
+
+.tittle {
+    display:inline-block ;
+    grid-template-rows: 300px 400px;
+}
+.title__main{
+    font-family: forum;
+    color: white;
+    margin-left: 130px;
+    margin-top: 100px;
+    margin-bottom: 9px;
+}
+
+
+p  {
+    font-size: 6.5rem;
+}
+
+.title_sub {
+    font-size: 3.5rem;
+    margin-left: 139px;
+    margin-bottom: 200px;
+}
+footer{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: stretch ;
+    grid-template-rows:600px 300px ;
+}
+
+.footerlegend{
+   
+    display: grid;
+    flex-direction: row;
+    font-size: 1.2rem;
+    width: 276px;
+}
+.footer__icons{
+    width: 4em;
+    height: 3em;
+    display: flex;
+    position :unset ;
+    padding: 2px 2px;
+    border-left: 3px;
+    border-right: 3px;
+    align-items: flex-end;
+}
+.video {
+    width: 300px;
+    height: 500px;
+}
+.services {
+    
+}
+img.footer__icons{
+    align-items: baseline;
+}
+
+.hey_tom_services {
+    display: flex;
+    flex-direction: column;
+}
+
+.forms {
+    margin-top: 72px;
+    margin-left: 100px;
+    margin-bottom: 80px;
+}
